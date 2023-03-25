@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新北市新莊區豐年街54號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[新北市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[新北市]\t { 模糊比對 } (新莊區)\t找到符合的[鄉鎮市區]，(豐年街)\t找到符合的[路街名]，(54號)\t找到符合的[門牌號碼]，進行[雙號過濾]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新北市新莊區豐年里7鄰豐年街54號",
+      "COUNTY": "新北市",
+      "TOWN": "新莊區",
+      "VILLAGE": "豐年里",
+      "NEIGHBORHOOD": "7鄰",
+      "ROAD": "豐年街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "54號",
+      "X": 121.447965,
+      "Y": 25.030818,
+      "CODEBASE": "A6505-0813-00",
+      "CODE1": "A6505-86-004",
+      "CODE2": "A6505-86"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新北市新莊區海山里12鄰豐年街54號",
+      "COUNTY": "新北市",
+      "TOWN": "新莊區",
+      "VILLAGE": "海山里",
+      "NEIGHBORHOOD": "12鄰",
+      "ROAD": "豐年街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "54號",
+      "X": 121.446387,
+      "Y": 25.031831,
+      "CODEBASE": "A6505-0796-00",
+      "CODE1": "A6505-85-002",
+      "CODE2": "A6505-85"
+    }
+  ]
+}</string>

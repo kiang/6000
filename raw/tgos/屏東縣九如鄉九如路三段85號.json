@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "屏東縣九如鄉九如路三段85號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[屏東縣]\tFULL:1",
+      "OutTraceInfo": "[屏東縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "屏東縣九如鄉大坵村9鄰九如路三段85號",
+      "COUNTY": "屏東縣",
+      "TOWN": "九如鄉",
+      "VILLAGE": "大坵村",
+      "NEIGHBORHOOD": "9鄰",
+      "ROAD": "九如路",
+      "SECTION": "3",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "85號",
+      "X": 120.490602,
+      "Y": 22.746741,
+      "CODEBASE": "A1308-0075-00",
+      "CODE1": "A1308-02-007",
+      "CODE2": "A1308-02"
+    }
+  ]
+}</string>

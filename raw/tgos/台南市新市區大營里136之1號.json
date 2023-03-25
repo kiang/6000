@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺南市新市區大營里136之1號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺南市]\tT:1,V:1,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[臺南市]\t { 模糊比對 } (新市區)\t找到符合的[鄉鎮市區]，(大營里)\t找到符合的[村里]，(136之1號)\t找到符合的[門牌號碼]，進行[雙號過濾]，進行[找最小門牌的號之、之號]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市新市區大營里16鄰大營136之1號",
+      "COUNTY": "臺南市",
+      "TOWN": "新市區",
+      "VILLAGE": "大營里",
+      "NEIGHBORHOOD": "16鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "大營",
+      "NUMBER": "136之1號",
+      "X": 120.313129,
+      "Y": 23.096461,
+      "CODEBASE": "A6720-0029-00",
+      "CODE1": "A6720-01-009",
+      "CODE2": "A6720-01"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市新市區大營里3鄰豐榮136之1號",
+      "COUNTY": "臺南市",
+      "TOWN": "新市區",
+      "VILLAGE": "大營里",
+      "NEIGHBORHOOD": "3鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "豐榮",
+      "NUMBER": "136之1號",
+      "X": 120.305783,
+      "Y": 23.087820,
+      "CODEBASE": "A6720-0072-00",
+      "CODE1": "A6720-03-007",
+      "CODE2": "A6720-03"
+    }
+  ]
+}</string>

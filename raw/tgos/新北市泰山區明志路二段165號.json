@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新北市泰山區明志路二段165號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[新北市]\tT:1,V:-1,R:1,S:1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+12)(-28),E:-1,N:-1",
+      "OutTraceInfo": "[新北市]\t { 模糊比對 } (泰山區)\t找到符合的[鄉鎮市區]，(明志路)\t找到符合的[路街名]，(2)\t找到符合的[路段]，(165號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 177 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 137 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新北市泰山區義仁里17鄰明志路二段137號",
+      "COUNTY": "新北市",
+      "TOWN": "泰山區",
+      "VILLAGE": "義仁里",
+      "NEIGHBORHOOD": "17鄰",
+      "ROAD": "明志路",
+      "SECTION": "2",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "137號",
+      "X": 121.427728,
+      "Y": 25.050647,
+      "CODEBASE": "A6516-0204-00",
+      "CODE1": "A6516-19-001",
+      "CODE2": "A6516-19"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新北市泰山區義仁里21鄰明志路二段177號",
+      "COUNTY": "新北市",
+      "TOWN": "泰山區",
+      "VILLAGE": "義仁里",
+      "NEIGHBORHOOD": "21鄰",
+      "ROAD": "明志路",
+      "SECTION": "2",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "177號",
+      "X": 121.428012,
+      "Y": 25.050129,
+      "CODEBASE": "A6516-0210-00",
+      "CODE1": "A6516-19-006",
+      "CODE2": "A6516-19"
+    }
+  ]
+}</string>

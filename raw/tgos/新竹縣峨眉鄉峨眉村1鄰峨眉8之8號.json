@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新竹縣峨眉鄉峨眉村1鄰峨眉8之8號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[新竹縣]\tFULL:1",
+      "OutTraceInfo": "[新竹縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新竹縣峨眉鄉峨眉村1鄰峨眉8號之8",
+      "COUNTY": "新竹縣",
+      "TOWN": "峨眉鄉",
+      "VILLAGE": "峨眉村",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "峨眉",
+      "NUMBER": "8號之8",
+      "X": 121.023672,
+      "Y": 24.687142,
+      "CODEBASE": "A0411-0076-00",
+      "CODE1": "A0411-01-006",
+      "CODE2": "A0411-01"
+    }
+  ]
+}</string>

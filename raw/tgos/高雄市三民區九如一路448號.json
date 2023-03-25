@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "高雄市三民區九如一路448號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[高雄市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+2)(-2),E:-1,N:-1",
+      "OutTraceInfo": "[高雄市]\t { 模糊比對 } (三民區)\t找到符合的[鄉鎮市區]，(九如一路)\t找到符合的[路街名]，(448號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 450 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 446 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市三民區寶安里23鄰九如一路446號",
+      "COUNTY": "高雄市",
+      "TOWN": "三民區",
+      "VILLAGE": "寶安里",
+      "NEIGHBORHOOD": "23鄰",
+      "ROAD": "九如一路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "446號",
+      "X": 120.329711,
+      "Y": 22.639066,
+      "CODEBASE": "A6405-1315-00",
+      "CODE1": "A6405-B5-008",
+      "CODE2": "A6405-B5"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市三民區寶安里23鄰九如一路450號",
+      "COUNTY": "高雄市",
+      "TOWN": "三民區",
+      "VILLAGE": "寶安里",
+      "NEIGHBORHOOD": "23鄰",
+      "ROAD": "九如一路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "450號",
+      "X": 120.329657,
+      "Y": 22.639074,
+      "CODEBASE": "A6405-1315-00",
+      "CODE1": "A6405-B5-008",
+      "CODE2": "A6405-B5"
+    }
+  ]
+}</string>

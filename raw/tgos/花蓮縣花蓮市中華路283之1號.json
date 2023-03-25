@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "花蓮縣花蓮市中華路283之1號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[花蓮縣]\tFULL:1",
+      "OutTraceInfo": "[花蓮縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣花蓮市主力里3鄰中華路283之1號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "花蓮市",
+      "VILLAGE": "主力里",
+      "NEIGHBORHOOD": "3鄰",
+      "ROAD": "中華路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "283之1號",
+      "X": 121.599917,
+      "Y": 23.975023,
+      "CODEBASE": "A1501-0629-00",
+      "CODE1": "A1501-36-002",
+      "CODE2": "A1501-36"
+    }
+  ]
+}</string>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "花蓮縣秀林鄉景美村加灣178之20號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[花蓮縣]\tFULL:1",
+      "OutTraceInfo": "[花蓮縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣秀林鄉景美村9鄰加灣178之20號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "秀林鄉",
+      "VILLAGE": "景美村",
+      "NEIGHBORHOOD": "9鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "加灣",
+      "NUMBER": "178之20號",
+      "X": 121.612669,
+      "Y": 24.090952,
+      "CODEBASE": "A1511-0102-00",
+      "CODE1": "A1511-05-001",
+      "CODE2": "A1511-05"
+    }
+  ]
+}</string>

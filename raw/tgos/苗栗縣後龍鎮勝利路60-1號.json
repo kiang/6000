@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "苗栗縣後龍鎮勝利路60-1號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[苗栗縣]\tFULL:1",
+      "OutTraceInfo": "[苗栗縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "苗栗縣後龍鎮溪洲里7鄰勝利路60之1號",
+      "COUNTY": "苗栗縣",
+      "TOWN": "後龍鎮",
+      "VILLAGE": "溪洲里",
+      "NEIGHBORHOOD": "7鄰",
+      "ROAD": "勝利路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "60之1號",
+      "X": 120.779732,
+      "Y": 24.620543,
+      "CODEBASE": "A0506-0133-00",
+      "CODE1": "A0506-06-004",
+      "CODE2": "A0506-06"
+    }
+  ]
+}</string>

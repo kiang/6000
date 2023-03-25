@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "高雄市六龜區荖濃村南橫路45號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[高雄市]\tT:1,V:2,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[高雄市]\t { 模糊比對 } (六龜區)\t找到符合的[鄉鎮市區]，(荖濃村)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找到符合的[村里]，(南橫路)\t找到符合的[路街名]，(45號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市六龜區荖濃里16鄰南橫路45號",
+      "COUNTY": "高雄市",
+      "TOWN": "六龜區",
+      "VILLAGE": "荖濃里",
+      "NEIGHBORHOOD": "16鄰",
+      "ROAD": "南橫路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "45號",
+      "X": 120.672914,
+      "Y": 23.072828,
+      "CODEBASE": "A6432-0019-00",
+      "CODE1": "A6432-02-009",
+      "CODE2": "A6432-02"
+    }
+  ]
+}</string>

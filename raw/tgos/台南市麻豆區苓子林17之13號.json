@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺南市麻豆區苓子林17之13號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[臺南市]\tFULL:1",
+      "OutTraceInfo": "[臺南市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "11103",
+      "FULL_ADDR": "臺南市麻豆區埤頭里11鄰苓子林17號之13",
+      "COUNTY": "臺南市",
+      "TOWN": "麻豆區",
+      "VILLAGE": "埤頭里",
+      "NEIGHBORHOOD": "11鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "苓子林",
+      "NUMBER": "17號之13",
+      "X": 120.232149,
+      "Y": 23.180399,
+      "CODEBASE": "A6707-0235-00",
+      "CODE1": "A6707-04-012",
+      "CODE2": "A6707-04"
+    }
+  ]
+}</string>

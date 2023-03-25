@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "宜蘭縣五結鄉五結中路二段3779號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[宜蘭縣]\tT:1,V:-1,R:1,S:1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(-3136),E:-1,N:-1",
+      "OutTraceInfo": "[宜蘭縣]\t { 模糊比對 } (五結鄉)\t找到符合的[鄉鎮市區]，(五結中路)\t找到符合的[路街名]，(2)\t找到符合的[路段]，(3779號)\t進行[單號過濾]，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 643 號，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "宜蘭縣五結鄉大吉村25鄰五結中路二段643號",
+      "COUNTY": "宜蘭縣",
+      "TOWN": "五結鄉",
+      "VILLAGE": "大吉村",
+      "NEIGHBORHOOD": "25鄰",
+      "ROAD": "五結中路",
+      "SECTION": "2",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "643號",
+      "X": 121.791323,
+      "Y": 24.699853,
+      "CODEBASE": "A0209-0084-00",
+      "CODE1": "A0209-04-005",
+      "CODE2": "A0209-04"
+    }
+  ]
+}</string>

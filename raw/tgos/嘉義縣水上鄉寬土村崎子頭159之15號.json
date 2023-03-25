@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "嘉義縣水上鄉寬土村崎子頭159之15號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[嘉義縣]\tT:1,V:0,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[嘉義縣]\t { 模糊比對 } (水上鄉)\t找到符合的[鄉鎮市區]，(寬土村)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，進行轉換搜尋[地區名+村]，進行轉換搜尋[地區名+里]，轉換搜尋找不到進行[忽略村里]，(崎子頭)\t找到符合的[地區]，(159之15號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣水上鄉寬士村24鄰崎子頭159號之15",
+      "COUNTY": "嘉義縣",
+      "TOWN": "水上鄉",
+      "VILLAGE": "寬士村",
+      "NEIGHBORHOOD": "24鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "崎子頭",
+      "NUMBER": "159號之15",
+      "X": 120.430479,
+      "Y": 23.451298,
+      "CODEBASE": "A1012-0059-00",
+      "CODE1": "A1012-02-014",
+      "CODE2": "A1012-02"
+    }
+  ]
+}</string>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺南市麻豆區大山里8鄰大山腳1之80號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺南市]\tT:1,V:0,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:0,NO:1,E:-1,N:0",
+      "OutTraceInfo": "[臺南市]\t { 模糊比對 } (麻豆區)\t找到符合的[鄉鎮市區]，(大山里)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，進行轉換搜尋[地區名+村]，進行轉換搜尋[地區名+里]，轉換搜尋找不到進行[忽略村里]，(大山腳)\t找不到符合的[地區]，轉換搜尋找不到符合的[地區]，(1之80號)\t找到符合的[門牌號碼]，進行[單號過濾]，進行[找最小門牌的號之、之號]，(8鄰)\t找不到進行[忽略鄰]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市麻豆區海埔里9鄰大山脚1號之80",
+      "COUNTY": "臺南市",
+      "TOWN": "麻豆區",
+      "VILLAGE": "海埔里",
+      "NEIGHBORHOOD": "9鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "大山脚",
+      "NUMBER": "1號之80",
+      "X": 120.220355,
+      "Y": 23.190573,
+      "CODEBASE": "A6707-0089-00",
+      "CODE1": "A6707-06-006",
+      "CODE2": "A6707-06"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市麻豆區南勢里10鄰南勢1號之80",
+      "COUNTY": "臺南市",
+      "TOWN": "麻豆區",
+      "VILLAGE": "南勢里",
+      "NEIGHBORHOOD": "10鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "南勢",
+      "NUMBER": "1號之80",
+      "X": 120.268535,
+      "Y": 23.199942,
+      "CODEBASE": "A6707-0049-00",
+      "CODE1": "A6707-02-002",
+      "CODE2": "A6707-02"
+    }
+  ]
+}</string>

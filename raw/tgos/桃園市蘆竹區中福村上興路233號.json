@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市蘆竹區中福村上興路233號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[桃園市]\tT:1,V:2,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+18)(-78),E:-1,N:-1",
+      "OutTraceInfo": "[桃園市]\t { 模糊比對 } (蘆竹區)\t找到符合的[鄉鎮市區]，(中福村)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找到符合的[村里]，(上興路)\t找到符合的[路街名]，(233號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入的門牌號碼 +18 號，進行[找小於且最接近的門牌號碼]，找到小於輸入的門牌號碼 -78 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "10302",
+      "FULL_ADDR": "桃園市蘆竹區中福里1鄰上興路155號",
+      "COUNTY": "桃園市",
+      "TOWN": "蘆竹區",
+      "VILLAGE": "中福里",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "上興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "155號",
+      "X": 121.260886,
+      "Y": 25.018649,
+      "CODEBASE": "A6805-0906-00",
+      "CODE1": "A6805-46-007",
+      "CODE2": "A6805-46"
+    },
+    {
+      "PERIOD": "10302",
+      "FULL_ADDR": "桃園市蘆竹區中福里4鄰上興路251號",
+      "COUNTY": "桃園市",
+      "TOWN": "蘆竹區",
+      "VILLAGE": "中福里",
+      "NEIGHBORHOOD": "4鄰",
+      "ROAD": "上興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "251號",
+      "X": 121.260465,
+      "Y": 25.017809,
+      "CODEBASE": "A6805-0905-00",
+      "CODE1": "A6805-45-007",
+      "CODE2": "A6805-45"
+    }
+  ]
+}</string>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "苗栗縣竹南鎮海口里街86號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[苗栗縣]\tT:1,V:1,R:0,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[苗栗縣]\t { 模糊比對 } (竹南鎮)\t找到符合的[鄉鎮市區]，(海口里)\t找到符合的[村里]，(街)\t找不到符合的[路街名]，進行轉換搜尋[街變成路，路變成街]，進行轉換搜尋[路變成地區名]，轉換搜尋找不到符合的[路街名]，(86號)\t找到符合的[門牌號碼]，進行[雙號過濾]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "苗栗縣竹南鎮海口里7鄰保福路86號",
+      "COUNTY": "苗栗縣",
+      "TOWN": "竹南鎮",
+      "VILLAGE": "海口里",
+      "NEIGHBORHOOD": "7鄰",
+      "ROAD": "保福路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "86號",
+      "X": 120.860168,
+      "Y": 24.675964,
+      "CODEBASE": "A0504-0516-00",
+      "CODE1": "A0504-23-006",
+      "CODE2": "A0504-23"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "苗栗縣竹南鎮海口里3鄰?才路86號",
+      "COUNTY": "苗栗縣",
+      "TOWN": "竹南鎮",
+      "VILLAGE": "海口里",
+      "NEIGHBORHOOD": "3鄰",
+      "ROAD": "?才路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "86號",
+      "X": 120.862737,
+      "Y": 24.677377,
+      "CODEBASE": "A0504-0517-00",
+      "CODE1": "A0504-23-007",
+      "CODE2": "A0504-23"
+    }
+  ]
+}</string>

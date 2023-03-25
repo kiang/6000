@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市平鎮區廣仁里新光路21號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[桃園市]\tT:1,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+2)(-14),E:-1,N:-1",
+      "OutTraceInfo": "[桃園市]\t { 模糊比對 } (平鎮區)\t找到符合的[鄉鎮市區]，(廣仁里)\t找到符合的[村里]，(新光路)\t找到符合的[路街名]，(21號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 23 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 7 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市平鎮區廣仁里31鄰新光路7號",
+      "COUNTY": "桃園市",
+      "TOWN": "平鎮區",
+      "VILLAGE": "廣仁里",
+      "NEIGHBORHOOD": "31鄰",
+      "ROAD": "新光路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "7號",
+      "X": 121.206031,
+      "Y": 24.940753,
+      "CODEBASE": "A6810-0463-00",
+      "CODE1": "A6810-33-003",
+      "CODE2": "A6810-33"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市平鎮區廣仁里22鄰新光路23號",
+      "COUNTY": "桃園市",
+      "TOWN": "平鎮區",
+      "VILLAGE": "廣仁里",
+      "NEIGHBORHOOD": "22鄰",
+      "ROAD": "新光路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "23號",
+      "X": 121.206014,
+      "Y": 24.940448,
+      "CODEBASE": "A6810-0498-00",
+      "CODE1": "A6810-33-008",
+      "CODE2": "A6810-33"
+    }
+  ]
+}</string>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺東縣大武鄉復興路128號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺東縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[臺東縣]\t { 模糊比對 } (大武鄉)\t找到符合的[鄉鎮市區]，(復興路)\t找到符合的[路街名]，(128號)\t找到符合的[門牌號碼]，進行[雙號過濾]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺東縣大武鄉大武村1鄰復興路128號",
+      "COUNTY": "臺東縣",
+      "TOWN": "大武鄉",
+      "VILLAGE": "大武村",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "復興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "128號",
+      "X": 120.907255,
+      "Y": 22.361993,
+      "CODEBASE": "A1410-0034-00",
+      "CODE1": "A1410-01-012",
+      "CODE2": "A1410-01"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺東縣大武鄉大武村2鄰復興路128號",
+      "COUNTY": "臺東縣",
+      "TOWN": "大武鄉",
+      "VILLAGE": "大武村",
+      "NEIGHBORHOOD": "2鄰",
+      "ROAD": "復興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "128號",
+      "X": 120.907255,
+      "Y": 22.361993,
+      "CODEBASE": "A1410-0034-00",
+      "CODE1": "A1410-01-012",
+      "CODE2": "A1410-01"
+    }
+  ]
+}</string>

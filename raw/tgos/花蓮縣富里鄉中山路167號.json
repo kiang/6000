@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "花蓮縣富里鄉中山路167號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[花蓮縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+2)(-2),E:-1,N:-1",
+      "OutTraceInfo": "[花蓮縣]\t { 模糊比對 } (富里鄉)\t找到符合的[鄉鎮市區]，(中山路)\t找到符合的[路街名]，(167號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 169 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 165 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣富里鄉富里村14鄰中山路165號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "富里鄉",
+      "VILLAGE": "富里村",
+      "NEIGHBORHOOD": "14鄰",
+      "ROAD": "中山路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "165號",
+      "X": 121.248088,
+      "Y": 23.176196,
+      "CODEBASE": "A1510-0204-00",
+      "CODE1": "A1510-04-011",
+      "CODE2": "A1510-04"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣富里鄉富里村14鄰中山路169號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "富里鄉",
+      "VILLAGE": "富里村",
+      "NEIGHBORHOOD": "14鄰",
+      "ROAD": "中山路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "169號",
+      "X": 121.248087,
+      "Y": 23.176364,
+      "CODEBASE": "A1510-0204-00",
+      "CODE1": "A1510-04-011",
+      "CODE2": "A1510-04"
+    }
+  ]
+}</string>

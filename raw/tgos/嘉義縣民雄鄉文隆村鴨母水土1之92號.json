@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "嘉義縣民雄鄉文隆村鴨母水土1之92號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[嘉義縣]\tT:1,V:1,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:0,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[嘉義縣]\t { 模糊比對 } (民雄鄉)\t找到符合的[鄉鎮市區]，(文隆村)\t找到符合的[村里]，(鴨母水土)\t找不到符合的[地區]，轉換搜尋找不到符合的[地區]，(1之92號)\t找到符合的[門牌號碼]，進行[單號過濾]，進行[找最小門牌的號之、之號]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣民雄鄉文隆村12鄰山脚1號之92",
+      "COUNTY": "嘉義縣",
+      "TOWN": "民雄鄉",
+      "VILLAGE": "文隆村",
+      "NEIGHBORHOOD": "12鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "山脚",
+      "NUMBER": "1號之92",
+      "X": 120.432372,
+      "Y": 23.533757,
+      "CODEBASE": "A1005-0408-00",
+      "CODE1": "A1005-12-006",
+      "CODE2": "A1005-12"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣民雄鄉文隆村2鄰鴨母坔1之92號",
+      "COUNTY": "嘉義縣",
+      "TOWN": "民雄鄉",
+      "VILLAGE": "文隆村",
+      "NEIGHBORHOOD": "2鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "鴨母坔",
+      "NUMBER": "1之92號",
+      "X": 120.425203,
+      "Y": 23.536836,
+      "CODEBASE": "A1005-0378-00",
+      "CODE1": "A1005-14-004",
+      "CODE2": "A1005-14"
+    }
+  ]
+}</string>

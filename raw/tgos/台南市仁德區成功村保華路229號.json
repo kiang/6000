@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺南市仁德區成功村保華路229號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺南市]\tT:1,V:2,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+8)(-2),E:-1,N:-1",
+      "OutTraceInfo": "[臺南市]\t { 模糊比對 } (仁德區)\t找到符合的[鄉鎮市區]，(成功村)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找到符合的[村里]，(保華路)\t找到符合的[路街名]，(229號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 237 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 227 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市仁德區成功里18鄰保華路227號",
+      "COUNTY": "臺南市",
+      "TOWN": "仁德區",
+      "VILLAGE": "成功里",
+      "NEIGHBORHOOD": "18鄰",
+      "ROAD": "保華路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "227號",
+      "X": 120.227801,
+      "Y": 22.959448,
+      "CODEBASE": "A6727-0164-00",
+      "CODE1": "A6727-10-009",
+      "CODE2": "A6727-10"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市仁德區成功里21鄰保華路237號",
+      "COUNTY": "臺南市",
+      "TOWN": "仁德區",
+      "VILLAGE": "成功里",
+      "NEIGHBORHOOD": "21鄰",
+      "ROAD": "保華路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "237號",
+      "X": 120.227298,
+      "Y": 22.958589,
+      "CODEBASE": "A6727-0164-00",
+      "CODE1": "A6727-10-009",
+      "CODE2": "A6727-10"
+    }
+  ]
+}</string>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "嘉義縣竹崎鄉和平村田寮段98號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[嘉義縣]\tT:1,V:1,R:-1,-S:0,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[嘉義縣]\t { 模糊比對 } (竹崎鄉)\t找到符合的[鄉鎮市區]，(和平村)\t找到符合的[村里]，(田寮段)\t找不到符合的[路段]，(98號)\t找到符合的[門牌號碼]，進行[雙號過濾]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣竹崎鄉和平村5鄰坑仔坪98號",
+      "COUNTY": "嘉義縣",
+      "TOWN": "竹崎鄉",
+      "VILLAGE": "和平村",
+      "NEIGHBORHOOD": "5鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "坑仔坪",
+      "NUMBER": "98號",
+      "X": 120.549922,
+      "Y": 23.517271,
+      "CODEBASE": "A1014-0101-00",
+      "CODE1": "A1014-04-010",
+      "CODE2": "A1014-04"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣竹崎鄉和平村14鄰竹民路98號",
+      "COUNTY": "嘉義縣",
+      "TOWN": "竹崎鄉",
+      "VILLAGE": "和平村",
+      "NEIGHBORHOOD": "14鄰",
+      "ROAD": "竹民路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "98號",
+      "X": 120.530163,
+      "Y": 23.510280,
+      "CODEBASE": "A1014-0099-00",
+      "CODE1": "A1014-03-009",
+      "CODE2": "A1014-03"
+    }
+  ]
+}</string>

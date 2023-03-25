@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "澎湖縣馬公市烏崁106之20號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[澎湖縣]\tFULL:1",
+      "OutTraceInfo": "[澎湖縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "澎湖縣馬公市烏崁里11鄰烏崁106之20號",
+      "COUNTY": "澎湖縣",
+      "TOWN": "馬公市",
+      "VILLAGE": "烏崁里",
+      "NEIGHBORHOOD": "11鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "烏崁",
+      "NUMBER": "106之20號",
+      "X": 119.618778,
+      "Y": 23.548819,
+      "CODEBASE": "A1601-1424-00",
+      "CODE1": "A1601-23-011",
+      "CODE2": "A1601-23"
+    }
+  ]
+}</string>

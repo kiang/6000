@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "花蓮縣壽豐鄉大學路2段1號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[花蓮縣]\tFULL:1",
+      "OutTraceInfo": "[花蓮縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣壽豐鄉志學村16鄰大學路二段1號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "壽豐鄉",
+      "VILLAGE": "志學村",
+      "NEIGHBORHOOD": "16鄰",
+      "ROAD": "大學路",
+      "SECTION": "2",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "1號",
+      "X": 121.543423,
+      "Y": 23.894245,
+      "CODEBASE": "A1506-0107-00",
+      "CODE1": "A1506-04-007",
+      "CODE2": "A1506-04"
+    }
+  ]
+}</string>

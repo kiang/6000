@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "苗栗縣頭屋鄉象上村12鄰象山路176號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[苗栗縣]\tT:1,V:0,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+8)(-2),E:-1,N:1",
+      "OutTraceInfo": "[苗栗縣]\t { 模糊比對 } (頭屋鄉)\t找到符合的[鄉鎮市區]，(象上村)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找不到進行[忽略村里]，(象山路)\t找到符合的[路街名]，(176號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 184 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 174 號，(12鄰)\t找到符合的[鄰]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "苗栗縣頭屋鄉象山村12鄰象山路174號",
+      "COUNTY": "苗栗縣",
+      "TOWN": "頭屋鄉",
+      "VILLAGE": "象山村",
+      "NEIGHBORHOOD": "12鄰",
+      "ROAD": "象山路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "174號",
+      "X": 120.859592,
+      "Y": 24.579132,
+      "CODEBASE": "A0512-0048-00",
+      "CODE1": "A0512-02-006",
+      "CODE2": "A0512-02"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "苗栗縣頭屋鄉象山村12鄰象山路184號",
+      "COUNTY": "苗栗縣",
+      "TOWN": "頭屋鄉",
+      "VILLAGE": "象山村",
+      "NEIGHBORHOOD": "12鄰",
+      "ROAD": "象山路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "184號",
+      "X": 120.858250,
+      "Y": 24.578509,
+      "CODEBASE": "A0512-0048-00",
+      "CODE1": "A0512-02-006",
+      "CODE2": "A0512-02"
+    }
+  ]
+}</string>

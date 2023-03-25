@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "澎湖縣馬公市興仁里雙掛頭1之2號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[澎湖縣]\tT:1,V:1,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:0,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[澎湖縣]\t { 模糊比對 } (馬公市)\t找到符合的[鄉鎮市區]，(興仁里)\t找到符合的[村里]，(雙掛頭)\t找不到符合的[地區]，轉換搜尋找不到符合的[地區]，(1之2號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "澎湖縣馬公市興仁里1鄰双頭掛1之2號",
+      "COUNTY": "澎湖縣",
+      "TOWN": "馬公市",
+      "VILLAGE": "興仁里",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "双頭掛",
+      "NUMBER": "1之2號",
+      "X": 119.610840,
+      "Y": 23.552253,
+      "CODEBASE": "A1601-1422-00",
+      "CODE1": "A1601-23-009",
+      "CODE2": "A1601-23"
+    }
+  ]
+}</string>

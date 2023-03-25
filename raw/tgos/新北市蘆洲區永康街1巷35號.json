@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新北市蘆洲區永康街1巷35號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[新北市]\tFULL:1",
+      "OutTraceInfo": "[新北市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新北市蘆洲區正義里16鄰永康街1巷35號",
+      "COUNTY": "新北市",
+      "TOWN": "蘆洲區",
+      "VILLAGE": "正義里",
+      "NEIGHBORHOOD": "16鄰",
+      "ROAD": "永康街",
+      "SECTION": "",
+      "LANE": "1巷",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "35號",
+      "X": 121.460185,
+      "Y": 25.084907,
+      "CODEBASE": "A6514-0339-00",
+      "CODE1": "A6514-34-004",
+      "CODE2": "A6514-34"
+    }
+  ]
+}</string>

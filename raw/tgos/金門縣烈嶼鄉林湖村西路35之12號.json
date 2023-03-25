@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "金門縣烈嶼鄉林湖村西路35之12號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[金門縣]\tT:1,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1(-6),E:-1,N:-1",
+      "OutTraceInfo": "[金門縣]\t { 模糊比對 } (烈嶼鄉)\t找到符合的[鄉鎮市區]，(林湖村)\t找到符合的[村里]，(西路)\t找到符合的[路街名]，(35之12號)\t找到符合的[門牌號碼]，進行[單號過濾]，進行[找小於且最接近門牌的號之、之號]，找到小於輸入的門牌的號之、之號 6 號，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "金門縣烈嶼鄉林湖村14鄰西路35之6號",
+      "COUNTY": "金門縣",
+      "TOWN": "烈嶼鄉",
+      "VILLAGE": "林湖村",
+      "NEIGHBORHOOD": "14鄰",
+      "ROAD": "西路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "35之6號",
+      "X": 118.245617,
+      "Y": 24.430700,
+      "CODEBASE": "A9205-0047-00",
+      "CODE1": "A9205-05-002",
+      "CODE2": "A9205-05"
+    }
+  ]
+}</string>
