@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市龍潭區烏林村工五路61號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[桃園市]\tT:1,V:2,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+8)(-4),E:-1,N:-1",
+      "OutTraceInfo": "[桃園市]\t { 模糊比對 } (龍潭區)\t找到符合的[鄉鎮市區]，(烏林村)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找到符合的[村里]，(工五路)\t找到符合的[路街名]，(61號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 69 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 57 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市龍潭區烏林里6鄰工五路57號",
+      "COUNTY": "桃園市",
+      "TOWN": "龍潭區",
+      "VILLAGE": "烏林里",
+      "NEIGHBORHOOD": "6鄰",
+      "ROAD": "工五路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "57號",
+      "X": 121.210458,
+      "Y": 24.888221,
+      "CODEBASE": "A6809-0028-00",
+      "CODE1": "A6809-01-008",
+      "CODE2": "A6809-01"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市龍潭區烏林里6鄰工五路69號",
+      "COUNTY": "桃園市",
+      "TOWN": "龍潭區",
+      "VILLAGE": "烏林里",
+      "NEIGHBORHOOD": "6鄰",
+      "ROAD": "工五路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "69號",
+      "X": 121.209971,
+      "Y": 24.888376,
+      "CODEBASE": "A6809-0028-00",
+      "CODE1": "A6809-01-008",
+      "CODE2": "A6809-01"
+    }
+  ]
+}</string>
