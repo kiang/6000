@@ -20,6 +20,7 @@ while ($line = fgetcsv($fh, 2048)) {
     foreach ($line as $k => $v) {
         $line[$k] = mb_convert_encoding($v, 'utf-8', 'big5');
     }
+
     if (false !== $head) {
         $data = array_combine($head, $line);
 
@@ -58,7 +59,6 @@ while ($line = fgetcsv($fh, 2048)) {
             $content = file_get_contents($apiUrl);
             if (!empty($content)) {
                 file_put_contents($tgosFile, $content);
-                error_log($address);
             }
         }
         if (file_exists($tgosFile)) {
@@ -70,12 +70,11 @@ while ($line = fgetcsv($fh, 2048)) {
                 foreach ($keys as $key) {
                     $data[$key] = $json['AddressList'][0][$key];
                 }
-                if (false !== $oFh) {
-                    fputcsv($oFh, $data);
-                } else {
+                if (false === $oFh) {
                     $oFh = fopen($dataPath . '/points.csv', 'w');
                     fputcsv($oFh, array_keys($data));
                 }
+                fputcsv($oFh, $data);
             }
         }
     } else {
