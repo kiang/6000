@@ -16,6 +16,7 @@ $fh = fopen(dirname(__DIR__) . '/raw/points.csv', 'r');
 $head = false;
 $keys = ['X', 'Y', 'FULL_ADDR', 'CODEBASE', 'CODE1', 'CODE2'];
 $oFh = false;
+$eFh = fopen(dirname(__DIR__) . '/raw/points_error.csv', 'w');
 while ($line = fgetcsv($fh, 2048)) {
     foreach ($line as $k => $v) {
         $line[$k] = mb_convert_encoding($v, 'utf-8', 'big5');
@@ -25,6 +26,10 @@ while ($line = fgetcsv($fh, 2048)) {
         $data = array_combine($head, $line);
 
         $address = "{$data['所屬縣市']}{$data['鄉鎮縣市別']}{$data['地址']}";
+        $pos = strpos($address, '、');
+        if (false !== $pos) {
+            $address = substr($address, 0, $pos) . '號';
+        }
         $pos = strpos($address, '號');
         $address = substr($address, 0, $pos);
         if (empty($address)) {
@@ -75,6 +80,12 @@ while ($line = fgetcsv($fh, 2048)) {
                     fputcsv($oFh, array_keys($data));
                 }
                 fputcsv($oFh, $data);
+            } else {
+                if (empty($json['Info'])) {
+                    fputcsv($eFh, [$address, '']);
+                } else {
+                    fputcsv($eFh, [$json['Info'][0]['InAddress'], $json['Info'][0]['OutTraceInfo']]);
+                }
             }
         }
     } else {
