@@ -62,6 +62,9 @@ while ($line = fgetcsv($fh, 2048)) {
                 'oReturnMaxCount' => '0', //如為多筆時，限制回傳最大筆數，輸入格式為正整數，如輸入 0 則代表不限制回傳筆數
             ));
             $content = file_get_contents($apiUrl);
+            if (false !== strpos($content, '呼叫次數已超過每日上限')) {
+                die('呼叫次數已超過每日上限');
+            }
             if (!empty($content)) {
                 file_put_contents($tgosFile, $content);
             }
