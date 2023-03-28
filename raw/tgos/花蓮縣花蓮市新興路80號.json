@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "花蓮縣花蓮市新興路80號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[花蓮縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+120)(-8),E:-1,N:-1",
+      "OutTraceInfo": "[花蓮縣]\t { 模糊比對 } (花蓮市)\t找到符合的[鄉鎮市區]，(新興路)\t找到符合的[路街名]，(80號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 200 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 72 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣花蓮市民勤里46鄰新興路72號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "花蓮市",
+      "VILLAGE": "民勤里",
+      "NEIGHBORHOOD": "46鄰",
+      "ROAD": "新興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "72號",
+      "X": 121.615277,
+      "Y": 23.987639,
+      "CODEBASE": "A1501-0430-00",
+      "CODE1": "A1501-11-015",
+      "CODE2": "A1501-11"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣花蓮市民勤里28鄰新興路200號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "花蓮市",
+      "VILLAGE": "民勤里",
+      "NEIGHBORHOOD": "28鄰",
+      "ROAD": "新興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "200號",
+      "X": 121.617151,
+      "Y": 23.991433,
+      "CODEBASE": "A1501-0330-00",
+      "CODE1": "A1501-11-011",
+      "CODE2": "A1501-11"
+    }
+  ]
+}</string>

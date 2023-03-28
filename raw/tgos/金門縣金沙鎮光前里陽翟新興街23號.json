@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "金門縣金沙鎮光前里陽翟新興街23號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[金門縣]\tT:1,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0,E:-1,N:-1",
+      "OutTraceInfo": "[金門縣]\t { 模糊比對 } (金沙鎮)\t找到符合的[鄉鎮市區]，(光前里)\t找到符合的[村里]，(陽翟新興街)\t找到符合的[路街名]，(23號)\t模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "金門縣金沙鎮光前里4鄰陽翟新興街47號",
+      "COUNTY": "金門縣",
+      "TOWN": "金沙鎮",
+      "VILLAGE": "光前里",
+      "NEIGHBORHOOD": "4鄰",
+      "ROAD": "陽翟新興街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "47號",
+      "X": 118.427700,
+      "Y": 24.477927,
+      "CODEBASE": "A9202-0118-00",
+      "CODE1": "A9202-06-011",
+      "CODE2": "A9202-06"
+    }
+  ]
+}</string>

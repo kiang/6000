@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "雲林縣水林鄉新興南路4號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[雲林縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+2),E:-1,N:-1",
+      "OutTraceInfo": "[雲林縣]\t { 模糊比對 } (水林鄉)\t找到符合的[鄉鎮市區]，(新興南路)\t找到符合的[路街名]，(4號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 6 號，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "雲林縣水林鄉水南村19鄰新興南路6號",
+      "COUNTY": "雲林縣",
+      "TOWN": "水林鄉",
+      "VILLAGE": "水南村",
+      "NEIGHBORHOOD": "19鄰",
+      "ROAD": "新興南路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "6號",
+      "X": 120.239664,
+      "Y": 23.571684,
+      "CODEBASE": "A0920-0146-00",
+      "CODE1": "A0920-06-001",
+      "CODE2": "A0920-06"
+    }
+  ]
+}</string>

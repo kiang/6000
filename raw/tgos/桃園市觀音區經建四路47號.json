@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市觀音區經建四路47號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[桃園市]\tFULL:1",
+      "OutTraceInfo": "[桃園市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "10612",
+      "FULL_ADDR": "桃園市觀音區樹林里21鄰經建四路47號",
+      "COUNTY": "桃園市",
+      "TOWN": "觀音區",
+      "VILLAGE": "樹林里",
+      "NEIGHBORHOOD": "21鄰",
+      "ROAD": "經建四路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "47號",
+      "X": 121.126451,
+      "Y": 25.064685,
+      "CODEBASE": "A6812-0020-00",
+      "CODE1": "A6812-01-009",
+      "CODE2": "A6812-01"
+    }
+  ]
+}</string>

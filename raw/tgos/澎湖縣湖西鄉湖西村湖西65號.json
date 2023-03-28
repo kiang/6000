@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "澎湖縣湖西鄉湖西村湖西65號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[澎湖縣]\tFULL:1",
+      "OutTraceInfo": "[澎湖縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "澎湖縣湖西鄉湖西村6鄰湖西65號",
+      "COUNTY": "澎湖縣",
+      "TOWN": "湖西鄉",
+      "VILLAGE": "湖西村",
+      "NEIGHBORHOOD": "6鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "湖西",
+      "NUMBER": "65號",
+      "X": 119.658964,
+      "Y": 23.584976,
+      "CODEBASE": "A1602-0613-00",
+      "CODE1": "A1602-19-006",
+      "CODE2": "A1602-19"
+    }
+  ]
+}</string>

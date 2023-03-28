@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市蘆竹區五福村五福一路34號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[桃園市]\tT:1,V:2,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+62),E:-1,N:-1",
+      "OutTraceInfo": "[桃園市]\t { 模糊比對 } (蘆竹區)\t找到符合的[鄉鎮市區]，(五福村)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找到符合的[村里]，(五福一路)\t找到符合的[路街名]，(34號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 96 號，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市蘆竹區五福里10鄰五福一路96號",
+      "COUNTY": "桃園市",
+      "TOWN": "蘆竹區",
+      "VILLAGE": "五福里",
+      "NEIGHBORHOOD": "10鄰",
+      "ROAD": "五福一路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "96號",
+      "X": 121.294332,
+      "Y": 25.055845,
+      "CODEBASE": "A6805-0328-00",
+      "CODE1": "A6805-14-005",
+      "CODE2": "A6805-14"
+    }
+  ]
+}</string>

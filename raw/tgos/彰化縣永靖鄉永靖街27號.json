@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "彰化縣永靖鄉永靖街27號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[彰化縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+4)(-6),E:-1,N:-1",
+      "OutTraceInfo": "[彰化縣]\t { 模糊比對 } (永靖鄉)\t找到符合的[鄉鎮市區]，(永靖街)\t找到符合的[路街名]，(27號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 31 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 21 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "彰化縣永靖鄉永東村8鄰永靖街21號",
+      "COUNTY": "彰化縣",
+      "TOWN": "永靖鄉",
+      "VILLAGE": "永東村",
+      "NEIGHBORHOOD": "8鄰",
+      "ROAD": "永靖街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "21號",
+      "X": 120.546861,
+      "Y": 23.920317,
+      "CODEBASE": "A0716-0148-00",
+      "CODE1": "A0716-07-009",
+      "CODE2": "A0716-07"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "彰化縣永靖鄉永東村8鄰永靖街31號",
+      "COUNTY": "彰化縣",
+      "TOWN": "永靖鄉",
+      "VILLAGE": "永東村",
+      "NEIGHBORHOOD": "8鄰",
+      "ROAD": "永靖街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "31號",
+      "X": 120.546766,
+      "Y": 23.920521,
+      "CODEBASE": "A0716-0148-00",
+      "CODE1": "A0716-07-009",
+      "CODE2": "A0716-07"
+    }
+  ]
+}</string>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "南投縣南投市中山街96號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[南投縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+4)(-4),E:-1,N:-1",
+      "OutTraceInfo": "[南投縣]\t { 模糊比對 } (南投市)\t找到符合的[鄉鎮市區]，(中山街)\t找到符合的[路街名]，(96號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 100 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 92 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "南投縣南投市崇文里1鄰中山街92號",
+      "COUNTY": "南投縣",
+      "TOWN": "南投市",
+      "VILLAGE": "崇文里",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "中山街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "92號",
+      "X": 120.686440,
+      "Y": 23.907215,
+      "CODEBASE": "A0801-0672-00",
+      "CODE1": "A0801-27-011",
+      "CODE2": "A0801-27"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "南投縣南投市彰仁里5鄰中山街100號",
+      "COUNTY": "南投縣",
+      "TOWN": "南投市",
+      "VILLAGE": "彰仁里",
+      "NEIGHBORHOOD": "5鄰",
+      "ROAD": "中山街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "100號",
+      "X": 120.686528,
+      "Y": 23.907577,
+      "CODEBASE": "A0801-0649-00",
+      "CODE1": "A0801-27-004",
+      "CODE2": "A0801-27"
+    }
+  ]
+}</string>

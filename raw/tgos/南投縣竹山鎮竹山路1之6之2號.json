@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "南投縣竹山鎮竹山路1之6之2號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[南投縣]\tFULL:1",
+      "OutTraceInfo": "[南投縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "南投縣竹山鎮桂林里15鄰竹山路1之6之2號",
+      "COUNTY": "南投縣",
+      "TOWN": "竹山鎮",
+      "VILLAGE": "桂林里",
+      "NEIGHBORHOOD": "15鄰",
+      "ROAD": "竹山路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "1之6之2號",
+      "X": 120.687663,
+      "Y": 23.758129,
+      "CODEBASE": "A0804-0228-00",
+      "CODE1": "A0804-11-012",
+      "CODE2": "A0804-11"
+    }
+  ]
+}</string>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新竹市東區公道五路二段417、419號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[新竹市]\tT:1,V:-1,R:1,S:1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(-416950),E:-1,N:-1",
+      "OutTraceInfo": "[新竹市]\t { 模糊比對 } (東區)\t找到符合的[鄉鎮市區]，(公道五路)\t找到符合的[路街名]，(2)\t找到符合的[路段]，(417419號)\t進行[單號過濾]，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 469 號，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新竹市東區光復里7鄰公道五路二段469號",
+      "COUNTY": "新竹市",
+      "TOWN": "東區",
+      "VILLAGE": "光復里",
+      "NEIGHBORHOOD": "7鄰",
+      "ROAD": "公道五路",
+      "SECTION": "2",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "469號",
+      "X": 120.993379,
+      "Y": 24.804573,
+      "CODEBASE": "A1801-0287-00",
+      "CODE1": "A1801-11-010",
+      "CODE2": "A1801-11"
+    }
+  ]
+}</string>

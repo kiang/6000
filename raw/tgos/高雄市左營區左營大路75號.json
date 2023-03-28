@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "高雄市左營區左營大路75號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[高雄市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+6)(-2),E:-1,N:-1",
+      "OutTraceInfo": "[高雄市]\t { 模糊比對 } (左營區)\t找到符合的[鄉鎮市區]，(左營大路)\t找到符合的[路街名]，(75號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 81 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 73 號，進行[找最小門牌的號之、之號]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市左營區埤西里3鄰左營大路73之1號",
+      "COUNTY": "高雄市",
+      "TOWN": "左營區",
+      "VILLAGE": "埤西里",
+      "NEIGHBORHOOD": "3鄰",
+      "ROAD": "左營大路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "73之1號",
+      "X": 120.287493,
+      "Y": 22.682070,
+      "CODEBASE": "A6403-0391-00",
+      "CODE1": "A6403-24-008",
+      "CODE2": "A6403-24"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市左營區埤西里3鄰左營大路73之2號",
+      "COUNTY": "高雄市",
+      "TOWN": "左營區",
+      "VILLAGE": "埤西里",
+      "NEIGHBORHOOD": "3鄰",
+      "ROAD": "左營大路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "73之2號",
+      "X": 120.287319,
+      "Y": 22.682036,
+      "CODEBASE": "A6403-0391-00",
+      "CODE1": "A6403-24-008",
+      "CODE2": "A6403-24"
+    }
+  ]
+}</string>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新竹市研發二路23號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[新竹市]\tT:-1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+2)(-18),E:-1,N:-1",
+      "OutTraceInfo": "[新竹市]\t { 模糊比對 } (研發二路)\t找到符合的[路街名]，(23號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 25 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 5 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新竹市東區科園里22鄰研發二路5號",
+      "COUNTY": "新竹市",
+      "TOWN": "東區",
+      "VILLAGE": "科園里",
+      "NEIGHBORHOOD": "22鄰",
+      "ROAD": "研發二路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "5號",
+      "X": 121.000773,
+      "Y": 24.778248,
+      "CODEBASE": "A1801-0971-00",
+      "CODE1": "A1801-67-012",
+      "CODE2": "A1801-67"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新竹市東區科園里22鄰研發二路25號",
+      "COUNTY": "新竹市",
+      "TOWN": "東區",
+      "VILLAGE": "科園里",
+      "NEIGHBORHOOD": "22鄰",
+      "ROAD": "研發二路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "25號",
+      "X": 120.999268,
+      "Y": 24.780311,
+      "CODEBASE": "A1801-0971-00",
+      "CODE1": "A1801-67-012",
+      "CODE2": "A1801-67"
+    }
+  ]
+}</string>

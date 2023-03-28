@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "屏東縣萬丹鄉大昌路471號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[屏東縣]\tFULL:1",
+      "OutTraceInfo": "[屏東縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "屏東縣萬丹鄉社皮村15鄰大昌路471號",
+      "COUNTY": "屏東縣",
+      "TOWN": "萬丹鄉",
+      "VILLAGE": "社皮村",
+      "NEIGHBORHOOD": "15鄰",
+      "ROAD": "大昌路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "471號",
+      "X": 120.469776,
+      "Y": 22.615590,
+      "CODEBASE": "A1305-0087-00",
+      "CODE1": "A1305-02-006",
+      "CODE2": "A1305-02"
+    }
+  ]
+}</string>

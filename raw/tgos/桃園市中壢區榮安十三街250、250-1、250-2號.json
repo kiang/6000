@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市中壢區榮安十三街250、250-1、250-2號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[桃園市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(-249924),E:-1,N:-1",
+      "OutTraceInfo": "[桃園市]\t { 模糊比對 } (中壢區)\t找到符合的[鄉鎮市區]，(榮安十三街)\t找到符合的[路街名]，(250250-1250-2號)\t進行[雙號過濾]，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 326 號，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市中壢區中興里9鄰榮安十三街326號",
+      "COUNTY": "桃園市",
+      "TOWN": "中壢區",
+      "VILLAGE": "中興里",
+      "NEIGHBORHOOD": "9鄰",
+      "ROAD": "榮安十三街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "326號",
+      "X": 121.257377,
+      "Y": 24.960664,
+      "CODEBASE": "A6802-1307-00",
+      "CODE1": "A6802-63-006",
+      "CODE2": "A6802-63"
+    }
+  ]
+}</string>

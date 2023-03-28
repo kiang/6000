@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "澎湖縣白沙鄉吉貝1之11號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[澎湖縣]\tFULL:1",
+      "OutTraceInfo": "[澎湖縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "澎湖縣白沙鄉吉貝村7鄰吉貝1號之11",
+      "COUNTY": "澎湖縣",
+      "TOWN": "白沙鄉",
+      "VILLAGE": "吉貝村",
+      "NEIGHBORHOOD": "7鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "吉貝",
+      "NUMBER": "1號之11",
+      "X": 119.613184,
+      "Y": 23.741312,
+      "CODEBASE": "A1603-0600-00",
+      "CODE1": "A1603-64-003",
+      "CODE2": "A1603-64"
+    }
+  ]
+}</string>

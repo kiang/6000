@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺中市大甲區經國路606號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺中市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+16)(-76),E:-1,N:-1",
+      "OutTraceInfo": "[臺中市]\t { 模糊比對 } (大甲區)\t找到符合的[鄉鎮市區]，(經國路)\t找到符合的[路街名]，(606號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 622 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 530 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市大甲區平安里6鄰經國路530號",
+      "COUNTY": "臺中市",
+      "TOWN": "大甲區",
+      "VILLAGE": "平安里",
+      "NEIGHBORHOOD": "6鄰",
+      "ROAD": "經國路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "530號",
+      "X": 120.617714,
+      "Y": 24.351399,
+      "CODEBASE": "A6611-0443-00",
+      "CODE1": "A6611-34-002",
+      "CODE2": "A6611-34"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市大甲區文武里25鄰經國路622號",
+      "COUNTY": "臺中市",
+      "TOWN": "大甲區",
+      "VILLAGE": "文武里",
+      "NEIGHBORHOOD": "25鄰",
+      "ROAD": "經國路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "622號",
+      "X": 120.617954,
+      "Y": 24.351880,
+      "CODEBASE": "A6611-0398-00",
+      "CODE1": "A6611-28-007",
+      "CODE2": "A6611-28"
+    }
+  ]
+}</string>

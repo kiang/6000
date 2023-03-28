@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "彰化縣北斗鎮復興路145-1號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[彰化縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+50)(-22),E:-1,N:-1",
+      "OutTraceInfo": "[彰化縣]\t { 模糊比對 } (北斗鎮)\t找到符合的[鄉鎮市區]，(復興路)\t找到符合的[路街名]，(145-1號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 195 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 123 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "彰化縣北斗鎮文昌里5鄰復興路123號",
+      "COUNTY": "彰化縣",
+      "TOWN": "北斗鎮",
+      "VILLAGE": "文昌里",
+      "NEIGHBORHOOD": "5鄰",
+      "ROAD": "復興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "123號",
+      "X": 120.528116,
+      "Y": 23.875090,
+      "CODEBASE": "A0719-0093-00",
+      "CODE1": "A0719-05-005",
+      "CODE2": "A0719-05"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "彰化縣北斗鎮文昌里16鄰復興路195號",
+      "COUNTY": "彰化縣",
+      "TOWN": "北斗鎮",
+      "VILLAGE": "文昌里",
+      "NEIGHBORHOOD": "16鄰",
+      "ROAD": "復興路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "195號",
+      "X": 120.528077,
+      "Y": 23.876702,
+      "CODEBASE": "A0719-0076-00",
+      "CODE1": "A0719-05-005",
+      "CODE2": "A0719-05"
+    }
+  ]
+}</string>

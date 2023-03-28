@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市大溪區康莊路322號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[桃園市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[桃園市]\t { 模糊比對 } (大溪區)\t找到符合的[鄉鎮市區]，(康莊路)\t找到符合的[路街名]，(322號)\t找到符合的[門牌號碼]，進行[雙號過濾]，進行[找最小門牌的號之、之號]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市大溪區一德里4鄰康莊路322之2號",
+      "COUNTY": "桃園市",
+      "TOWN": "大溪區",
+      "VILLAGE": "一德里",
+      "NEIGHBORHOOD": "4鄰",
+      "ROAD": "康莊路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "322之2號",
+      "X": 121.287335,
+      "Y": 24.876929,
+      "CODEBASE": "A6803-0493-00",
+      "CODE1": "A6803-30-003",
+      "CODE2": "A6803-30"
+    }
+  ]
+}</string>

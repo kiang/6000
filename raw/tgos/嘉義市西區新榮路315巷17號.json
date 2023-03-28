@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "嘉義市西區新榮路315巷17號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[嘉義市]\tT:1,V:-1,R:1,S:-1,L:0,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[嘉義市]\t { 模糊比對 } (西區)\t找到符合的[鄉鎮市區]，(新榮路)\t找到符合的[路街名]，(315巷)\t找不到符合的[巷]，(315)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義市西區書院里5鄰新榮路315號",
+      "COUNTY": "嘉義市",
+      "TOWN": "西區",
+      "VILLAGE": "書院里",
+      "NEIGHBORHOOD": "5鄰",
+      "ROAD": "新榮路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "315號",
+      "X": 120.444080,
+      "Y": 23.478870,
+      "CODEBASE": "A2002-0340-00",
+      "CODE1": "A2002-23-005",
+      "CODE2": "A2002-23"
+    }
+  ]
+}</string>

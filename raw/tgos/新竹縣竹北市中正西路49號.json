@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新竹縣竹北市中正西路49號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[新竹縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+2)(-2),E:-1,N:-1",
+      "OutTraceInfo": "[新竹縣]\t { 模糊比對 } (竹北市)\t找到符合的[鄉鎮市區]，(中正西路)\t找到符合的[路街名]，(49號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 51 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 47 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新竹縣竹北市新國里4鄰中正西路47號",
+      "COUNTY": "新竹縣",
+      "TOWN": "竹北市",
+      "VILLAGE": "新國里",
+      "NEIGHBORHOOD": "4鄰",
+      "ROAD": "中正西路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "47號",
+      "X": 121.001893,
+      "Y": 24.840142,
+      "CODEBASE": "A0401-0352-00",
+      "CODE1": "A0401-18-001",
+      "CODE2": "A0401-18"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新竹縣竹北市新國里4鄰中正西路51號",
+      "COUNTY": "新竹縣",
+      "TOWN": "竹北市",
+      "VILLAGE": "新國里",
+      "NEIGHBORHOOD": "4鄰",
+      "ROAD": "中正西路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "51號",
+      "X": 121.001796,
+      "Y": 24.840184,
+      "CODEBASE": "A0401-0352-00",
+      "CODE1": "A0401-18-001",
+      "CODE2": "A0401-18"
+    }
+  ]
+}</string>

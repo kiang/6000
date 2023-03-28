@@ -58,6 +58,7 @@ while ($line = fgetcsv($fh, 2048)) {
             $content = file_get_contents($apiUrl);
             if (!empty($content)) {
                 file_put_contents($tgosFile, $content);
+                error_log($address);
             }
         }
         if (file_exists($tgosFile)) {

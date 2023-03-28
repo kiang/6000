@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "花蓮縣秀林鄉和平村和平34之3號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[花蓮縣]\tT:1,V:1,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[花蓮縣]\t { 模糊比對 } (秀林鄉)\t找到符合的[鄉鎮市區]，(和平村)\t找到符合的[村里]，(和平)\t找到符合的[地區]，(34之3號)\t找到符合的[門牌號碼]，進行[雙號過濾]，進行[找最小門牌的號之、之號]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣秀林鄉和平村1鄰和平34之3號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "秀林鄉",
+      "VILLAGE": "和平村",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "和平",
+      "NUMBER": "34之3號",
+      "X": 121.746572,
+      "Y": 24.312677,
+      "CODEBASE": "A1511-0004-00",
+      "CODE1": "A1511-01-001",
+      "CODE2": "A1511-01"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣秀林鄉和平村2鄰和平34之3號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "秀林鄉",
+      "VILLAGE": "和平村",
+      "NEIGHBORHOOD": "2鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "和平",
+      "NUMBER": "34之3號",
+      "X": 121.746610,
+      "Y": 24.312695,
+      "CODEBASE": "A1511-0004-00",
+      "CODE1": "A1511-01-001",
+      "CODE2": "A1511-01"
+    }
+  ]
+}</string>

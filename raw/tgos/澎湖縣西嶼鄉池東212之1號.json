@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "澎湖縣西嶼鄉池東212之1號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[澎湖縣]\tT:1,V:-1,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:0,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[澎湖縣]\t { 模糊比對 } (西嶼鄉)\t找到符合的[鄉鎮市區]，(池東)\t找不到符合的[地區]，轉換搜尋找不到符合的[地區]，(212之1號)\t找到符合的[門牌號碼]，進行[雙號過濾]，進行[找最小門牌的號之、之號]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "澎湖縣西嶼鄉竹灣村2鄰竹篙灣212號之1",
+      "COUNTY": "澎湖縣",
+      "TOWN": "西嶼鄉",
+      "VILLAGE": "竹灣村",
+      "NEIGHBORHOOD": "2鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "竹篙灣",
+      "NUMBER": "212號之1",
+      "X": 119.519540,
+      "Y": 23.630851,
+      "CODEBASE": "A1604-0280-00",
+      "CODE1": "A1604-25-012",
+      "CODE2": "A1604-25"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "澎湖縣西嶼鄉池東村5鄰小池角212號之1",
+      "COUNTY": "澎湖縣",
+      "TOWN": "西嶼鄉",
+      "VILLAGE": "池東村",
+      "NEIGHBORHOOD": "5鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "小池角",
+      "NUMBER": "212號之1",
+      "X": 119.510932,
+      "Y": 23.599609,
+      "CODEBASE": "A1604-0237-00",
+      "CODE1": "A1604-28-006",
+      "CODE2": "A1604-28"
+    }
+  ]
+}</string>

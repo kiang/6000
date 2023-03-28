@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新北市三重區正義南路10號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[新北市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+10)(-4),E:-1,N:-1",
+      "OutTraceInfo": "[新北市]\t { 模糊比對 } (三重區)\t找到符合的[鄉鎮市區]，(正義南路)\t找到符合的[路街名]，(10號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 20 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 6 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新北市三重區光榮里17鄰正義南路6號",
+      "COUNTY": "新北市",
+      "TOWN": "三重區",
+      "VILLAGE": "光榮里",
+      "NEIGHBORHOOD": "17鄰",
+      "ROAD": "正義南路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "6號",
+      "X": 121.498098,
+      "Y": 25.061765,
+      "CODEBASE": "A6502-0976-00",
+      "CODE1": "A6502-A0-005",
+      "CODE2": "A6502-A0"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "新北市三重區光輝里14鄰正義南路20號",
+      "COUNTY": "新北市",
+      "TOWN": "三重區",
+      "VILLAGE": "光輝里",
+      "NEIGHBORHOOD": "14鄰",
+      "ROAD": "正義南路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "20號",
+      "X": 121.498175,
+      "Y": 25.061409,
+      "CODEBASE": "A6502-1013-00",
+      "CODE1": "A6502-A0-011",
+      "CODE2": "A6502-A0"
+    }
+  ]
+}</string>

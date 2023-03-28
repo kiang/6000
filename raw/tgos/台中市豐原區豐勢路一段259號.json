@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺中市豐原區豐勢路一段259號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺中市]\tT:1,V:-1,R:1,S:1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+2)(-14),E:-1,N:-1",
+      "OutTraceInfo": "[臺中市]\t { 模糊比對 } (豐原區)\t找到符合的[鄉鎮市區]，(豐勢路)\t找到符合的[路街名]，(1)\t找到符合的[路段]，(259號)\t進行[單號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入門牌號碼的最接近門牌號碼 261 號，進行[找小於且最接近的門牌號碼]，找到小於輸入門牌號碼的最接近門牌號碼 245 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市豐原區翁明里8鄰豐勢路一段245號",
+      "COUNTY": "臺中市",
+      "TOWN": "豐原區",
+      "VILLAGE": "翁明里",
+      "NEIGHBORHOOD": "8鄰",
+      "ROAD": "豐勢路",
+      "SECTION": "1",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "245號",
+      "X": 120.726596,
+      "Y": 24.255772,
+      "CODEBASE": "A6609-0246-00",
+      "CODE1": "A6609-14-005",
+      "CODE2": "A6609-14"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市豐原區翁明里3鄰豐勢路一段261號",
+      "COUNTY": "臺中市",
+      "TOWN": "豐原區",
+      "VILLAGE": "翁明里",
+      "NEIGHBORHOOD": "3鄰",
+      "ROAD": "豐勢路",
+      "SECTION": "1",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "261號",
+      "X": 120.726802,
+      "Y": 24.255898,
+      "CODEBASE": "A6609-0242-00",
+      "CODE1": "A6609-14-003",
+      "CODE2": "A6609-14"
+    }
+  ]
+}</string>

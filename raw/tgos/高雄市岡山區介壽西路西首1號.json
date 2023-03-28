@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/">{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "高雄市岡山區介壽西路西首1號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[高雄市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:0,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[高雄市]\t { 模糊比對 } (岡山區)\t找到符合的[鄉鎮市區]，(介壽西路)\t找到符合的[路街名]，(西首)\t找不到符合的[地區]，進行轉換搜尋[路或街變成地區名]，轉換搜尋找不到符合的[地區]，(1號)\t找到符合的[門牌號碼]，進行[單號過濾]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市岡山區協榮里1鄰介壽西路1號",
+      "COUNTY": "高雄市",
+      "TOWN": "岡山區",
+      "VILLAGE": "協榮里",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "介壽西路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "1號",
+      "X": 120.284127,
+      "Y": 22.783954,
+      "CODEBASE": "A6419-0730-00",
+      "CODE1": "A6419-46-263",
+      "CODE2": "A6419-46"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市岡山區福興里8鄰介壽西路1號",
+      "COUNTY": "高雄市",
+      "TOWN": "岡山區",
+      "VILLAGE": "福興里",
+      "NEIGHBORHOOD": "8鄰",
+      "ROAD": "介壽西路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "1號",
+      "X": 120.271873,
+      "Y": 22.784694,
+      "CODEBASE": "A6419-0702-00",
+      "CODE1": "A6419-43-261",
+      "CODE2": "A6419-43"
+    }
+  ]
+}</string>
